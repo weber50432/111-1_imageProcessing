@@ -1,2 +1,7 @@
 *.docx
 *.zip
+*.exe
+data/
+*.spec
+*.zip
+.vscode/
