@@ -27,6 +27,7 @@ class HW6(QtWidgets.QDialog):
         return
     # Load color image
     self.image = cv2.imread(filename, 1)
+    self.image = self.image[:,:,::-1]
     self.showImage(self.image,self.ui.originalImage)
   def loadManyImage(self):
     filename, _ = QtWidgets.QFileDialog.getOpenFileNames(None, 'Open Image', 'Image', '*.png *.jpg *.bmp')
@@ -50,7 +51,7 @@ class HW6(QtWidgets.QDialog):
     if len(imageToShow.shape) == 3:
       height,width ,color = imageToShow.shape
       outputImage = QtGui.QImage(imageToShow.astype(
-          np.uint8), width, height, 3 * width, QtGui.QImage.Format_BGR888)
+          np.uint8), width, height, 3 * width, QtGui.QImage.Format_RGB888)
     else:
       height,width = imageToShow.shape
       outputImage = QtGui.QImage(imageToShow.astype(
