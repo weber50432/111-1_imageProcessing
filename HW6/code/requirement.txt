@@ -1,0 +1,8 @@
+PyQt5
+sys
+cv2
+math
+imutils
+numpy 
+pyqtgraph
+pywt
