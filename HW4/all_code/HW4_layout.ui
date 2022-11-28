@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>944</width>
-    <height>1160</height>
+    <width>883</width>
+    <height>1004</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,7 +20,7 @@
       <enum>QLayout::SetDefaultConstraint</enum>
      </property>
      <item>
-      <layout class="QGridLayout" name="controlLayout" columnstretch="0,0,0,0,0,0,0,0" columnminimumwidth="0,0,0,0,0,0,0,0">
+      <layout class="QGridLayout" name="controlLayout" columnstretch="0,0,0,0,0,0,0" columnminimumwidth="0,0,0,0,0,0,0">
        <property name="horizontalSpacing">
         <number>6</number>
        </property>
@@ -51,7 +51,14 @@
         </widget>
        </item>
        <item row="1" column="2">
-        <widget class="QLineEdit" name="p2Cutoff"/>
+        <widget class="QLineEdit" name="p2Cutoff">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+        </widget>
        </item>
        <item row="2" column="2">
         <widget class="QLineEdit" name="p3Cutoff"/>
@@ -171,7 +178,14 @@
         </widget>
        </item>
        <item row="1" column="4">
-        <widget class="QLineEdit" name="p2nValue"/>
+        <widget class="QLineEdit" name="p2nValue">
+         <property name="minimumSize">
+          <size>
+           <width>75</width>
+           <height>0</height>
+          </size>
+         </property>
+        </widget>
        </item>
        <item row="1" column="5">
         <widget class="QPushButton" name="p2Confirm">
@@ -290,8 +304,8 @@
         <widget class="QLabel" name="originalImage">
          <property name="minimumSize">
           <size>
-           <width>300</width>
-           <height>300</height>
+           <width>250</width>
+           <height>250</height>
           </size>
          </property>
          <property name="text">
@@ -303,8 +317,8 @@
         <widget class="QLabel" name="modifiedImage1">
          <property name="minimumSize">
           <size>
-           <width>300</width>
-           <height>300</height>
+           <width>250</width>
+           <height>250</height>
           </size>
          </property>
          <property name="text">
@@ -316,8 +330,8 @@
         <widget class="QLabel" name="modifiedImage2">
          <property name="minimumSize">
           <size>
-           <width>300</width>
-           <height>300</height>
+           <width>250</width>
+           <height>250</height>
           </size>
          </property>
          <property name="text">
@@ -329,8 +343,8 @@
         <widget class="QLabel" name="modifiedImage3">
          <property name="minimumSize">
           <size>
-           <width>300</width>
-           <height>300</height>
+           <width>250</width>
+           <height>250</height>
           </size>
          </property>
          <property name="text">
@@ -342,8 +356,8 @@
         <widget class="QLabel" name="modifiedImage4">
          <property name="minimumSize">
           <size>
-           <width>300</width>
-           <height>300</height>
+           <width>250</width>
+           <height>250</height>
           </size>
          </property>
          <property name="text">
@@ -355,8 +369,8 @@
         <widget class="QLabel" name="modifiedImage5">
          <property name="minimumSize">
           <size>
-           <width>300</width>
-           <height>300</height>
+           <width>250</width>
+           <height>250</height>
           </size>
          </property>
          <property name="text">
@@ -368,8 +382,8 @@
         <widget class="QLabel" name="modifiedImage7">
          <property name="minimumSize">
           <size>
-           <width>300</width>
-           <height>300</height>
+           <width>250</width>
+           <height>250</height>
           </size>
          </property>
          <property name="text">
@@ -381,8 +395,8 @@
         <widget class="QLabel" name="modifiedImage6">
          <property name="minimumSize">
           <size>
-           <width>300</width>
-           <height>300</height>
+           <width>250</width>
+           <height>250</height>
           </size>
          </property>
          <property name="text">
@@ -394,8 +408,8 @@
         <widget class="QLabel" name="modifiedImage8">
          <property name="minimumSize">
           <size>
-           <width>300</width>
-           <height>300</height>
+           <width>250</width>
+           <height>250</height>
           </size>
          </property>
          <property name="text">
